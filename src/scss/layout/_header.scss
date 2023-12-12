@@ -1,5 +1,9 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header{
+  height: 100vh;
+//  background-image:url("/public/images/cover.jpeg");
+background-color: aquamarine;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
