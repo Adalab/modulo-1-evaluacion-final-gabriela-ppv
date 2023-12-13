@@ -25,14 +25,20 @@
   &__title {
     text-transform: uppercase;
     line-height: 2;
-    // font-size: 3rem ;
+    font-size: 30px ;
     white-space: 12;
     padding: 10px;
   }
   &__titletwo {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    white-space: 34;
+    white-space: 24;
+    font-size: 16px;
+    margin-bottom: 10px;
+    // padding-top: 5px;
+    // padding-right:30px ;
+    // padding-left:30px ;
+
   }
 
   &__scrolldown {

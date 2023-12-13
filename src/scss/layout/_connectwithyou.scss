@@ -1,6 +1,7 @@
 .boxconnect {
   padding: 37px 12px 2px 13px;
-  height: 500px;
+  height: 400px;
+  margin-bottom: 20px;
   background-color: $color-white;
   display: flex;
   flex-direction: column;
@@ -9,12 +10,13 @@
   &__slogan {
     color: $color-orange;
     font-family: $font-text;
-    // padding: 8px;
   }
   &__title {
     color: $color-black;
     font-family: $font-title;
     padding-top: 8px;
+    font-size: 24px;
+    line-height: 30px;
   }
   &__text {
     color: $color-grey;

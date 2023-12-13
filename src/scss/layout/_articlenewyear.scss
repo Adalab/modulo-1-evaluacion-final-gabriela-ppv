@@ -1,17 +1,17 @@
-// .boxnewyer{
-//    &__article 
-//     h4 {
-//       font-family: $font-title;
-//       color: $color-black;
-//       size: 18px;
-//       line-height: 30px;
-//     }
 
-//     p {
-//       font-family: $font-text;
-//       color: $color-black;
-//       font-size: 18px;
-//       line-height: 30px;
-//       padding: 1px;
-//     }
-// }
+   .boxnewyer__article {
+    h4 {
+      font-family: $font-title;
+      color: $color-black;
+      size: 18px;
+      line-height: 30px;
+    }
+
+     p{
+      font-family: $font-text;
+      color: $color-black;
+      font-size: 18px;
+      line-height: 30px;
+      padding: 1px;
+    }
+   }
