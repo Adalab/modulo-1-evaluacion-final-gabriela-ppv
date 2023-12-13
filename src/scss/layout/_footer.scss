@@ -1,12 +1,11 @@
 .footer {
   background-color: $color-grey;
   font-family: $font-text;
-    height: 465px;
+  height: 465px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  
 
   &__arrow {
     background-color: $color-white;
@@ -18,7 +17,7 @@
   &__nav--list {
     list-style: none;
     text-transform: uppercase;
-    line-height:30px;
+    line-height: 30px;
     text-align: center;
     font-size: 16px;
   }
@@ -28,10 +27,10 @@
     color: $color-white;
     font-family: $font-text;
   }
-  &__heart{
+  &__heart {
     color: $color-white;
-   &--red{
-      color:$color-orange;
+    &--red {
+      color: $color-orange;
     }
   }
 }
