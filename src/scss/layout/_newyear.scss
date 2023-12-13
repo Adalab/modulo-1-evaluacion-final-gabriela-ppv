@@ -1,0 +1,44 @@
+.boxnewyear {
+  background-color: $color-whitetwo;
+  // width: 320px;
+  height: 624px;
+  margin: 39px 0 0;
+  padding: 29px 15px 39px;
+  display: grid;
+  grid-template-columns: fr fr;
+  grid-template-rows: repeat(10);
+  grid: center;
+  text-align: center;
+
+  &__title {
+    font-family: $font-title;
+    color: $color-black;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  &__article {
+    h4 {
+      font-family: $font-title;
+      color: $color-black;
+      size: 18px;
+      line-height: 30px;
+    }
+
+    p {
+      font-family: $font-text;
+      color: $color-black;
+      font-size: 18px;
+      line-height: 30px;
+      padding: 1px;
+    }
+  }
+
+  &__button {
+    background-color: $color-orange;
+    color: $color-white;
+    border-radius: 30% $color-orange;
+    height: 45px;
+    width: 93px;
+    
+  }
+}

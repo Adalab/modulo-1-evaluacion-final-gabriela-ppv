@@ -1,9 +1,28 @@
 .header {
   height: 100vh;
-  background-image: url('/src/images/cover.jpeg');
-  background-color:antiquewhite;
+  background-image: url("//src/images/cover.jpeg");
+  background-color:burlywood;
+  font-family:$font-title;
+  color:$color-white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  &__title{
+    text-transform: uppercase;
+    color:$color-white;
+    line-height:2;
+    white-space: 12;
+    padding: 5px;
+  }
+  &__titletwo{
+    font-family:'Roboto', sans-serif;
+    font-weight:normal;
+  }
+  &__hamburguer{
+    // background-color: $color-orange;
+    position: fixed;
+    top: 0;
+    left:0;
+  }
 }

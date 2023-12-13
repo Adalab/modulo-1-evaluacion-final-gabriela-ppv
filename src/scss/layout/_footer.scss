@@ -1,8 +1,22 @@
-.footer{
-    background-color:$color-grey;
-    color:$color-white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.footer {
+  background-color: $color-grey;
+  color: $color-white;
+  font-family: $font-text;
+//   height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  &__nav--list {
+    list-style: none;
+    text-transform: uppercase;
+
+
+    a {
+      text-decoration: none;
+      color: $color-white;
+      font-family: $font-text;
+    }
+  }
 }

@@ -1,0 +1,37 @@
+.boxconnect{
+    padding:37px 12px 2px 13px ;
+    height: 340px;
+    background-color: $color-white;
+    margin: 5px;
+    
+    &__slogan{
+        color: $color-orange;
+        font-family: $font-text;
+        // padding: 8px;
+    }
+    &__title{
+        color:$color-black;
+        font-family: $font-title;
+        padding-top: 8px;
+        
+
+    }
+    &__text{
+        color: $color-grey;
+        font-family: $font-text;
+        font-size: 18px;
+        padding-bottom: 8px;
+        line-height: 30px ;
+    }
+    &__button{
+        color: $color-orange;
+        background-color: $color-white;
+        border-radius: 15%;
+        line-height: 45px;
+        text-align: center;
+        width: 137 px;
+        height: 40px;
+        // size: 20px;
+
+    }
+}
