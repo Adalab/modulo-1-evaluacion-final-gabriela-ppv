@@ -36,9 +36,16 @@
   &__button {
     background-color: $color-orange;
     color: $color-white;
-    border-radius: 30% $color-orange;
+    border-radius: 40px; 
+    font-family: $font-text;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 51px;
+    padding:10px 20px;
+    width: 184px;
     height: 45px;
-    width: 93px;
-    
+    border: none;
+    font-size:1rem;
+    margin: 25px 0 48px 0;
   }
 }

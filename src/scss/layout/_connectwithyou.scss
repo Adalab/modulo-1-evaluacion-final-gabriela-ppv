@@ -1,6 +1,6 @@
 .boxconnect{
     padding:37px 12px 2px 13px ;
-    height: 340px;
+    height: 500px;
     background-color: $color-white;
     margin: 5px;
     
@@ -26,12 +26,17 @@
     &__button{
         color: $color-orange;
         background-color: $color-white;
-        border-radius: 15%;
+        border-radius: 40px;
+        border: 2px solid $color-orange;
+        font-size: 2rem;
+        font-family: $font-text;
         line-height: 45px;
         text-align: center;
-        width: 137 px;
-        height: 40px;
-        // size: 20px;
-
+        margin-top: 51px;
+        padding:10px 20px;
+        width: 184px;
+         height: 45px;
+       
+      
     }
 }
