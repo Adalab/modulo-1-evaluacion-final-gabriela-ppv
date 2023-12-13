@@ -8,36 +8,43 @@
   background-size: 200vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  text-align: center;
 
-  &__title {
-    text-transform: uppercase;
-    line-height: 2;
-    white-space: 12;
-    padding: 5px;
-  }
-  &__titletwo {
-    font-family: "Roboto", sans-serif;
-    font-weight: normal;
-  }
+  
   &__hamburguer {
     width: 37px;
     height: 34px;
     background-color: $color-orange;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: fixed;
-    transform: 0 0;
-    top: 0;
-    left: 0;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center;
+    // position: fixed;
+    // transform:translate(100px);
+    // top: 0;
+    // left: 0;
+    // padding: 10px;
+  }
+  &__title {
+    text-transform: uppercase;
+    line-height: 2;
+    white-space: 12;
     padding: 10px;
   }
+  &__titletwo {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    white-space: 34;
+  }
+
   &__scrolldown {
     background-color: $color-white;
-    margin-top: 12px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     padding: 12px 12px;
     border-radius: 50%;
+   
+   
   }
 }
