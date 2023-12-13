@@ -12,7 +12,6 @@
   align-items: center;
   text-align: center;
 
-  
   &__hamburger {
     width: 37px;
     height: 35px;
@@ -25,7 +24,7 @@
   &__title {
     text-transform: uppercase;
     line-height: 2;
-    font-size: 30px ;
+    font-size: 30px;
     white-space: 12;
     padding: 10px;
   }
@@ -35,10 +34,6 @@
     white-space: 24;
     font-size: 16px;
     margin-bottom: 10px;
-    // padding-top: 5px;
-    // padding-right:30px ;
-    // padding-left:30px ;
-
   }
 
   &__scrolldown {
@@ -47,7 +42,5 @@
     margin-bottom: 40px;
     padding: 12px 10px;
     border-radius: 50%;
-   
-   
   }
 }

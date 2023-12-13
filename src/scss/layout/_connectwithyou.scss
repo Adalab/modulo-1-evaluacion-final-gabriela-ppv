@@ -6,10 +6,13 @@
   display: flex;
   flex-direction: column;
   justify-items: center;
+  // margin-left: 12px;
+  // margin-right: 12px;
 
   &__slogan {
     color: $color-orange;
     font-family: $font-text;
+    margin-left: 12px;
   }
   &__title {
     color: $color-black;
@@ -17,12 +20,15 @@
     padding-top: 8px;
     font-size: 24px;
     line-height: 30px;
+    margin-left: 12px;
   }
   &__text {
     color: $color-grey;
     font-family: $font-text;
     font-size: 18px;
-    padding-bottom: 8px;
+    // padding-bottom: 8px 12px;
+    margin-left: 12px;
+    // margin-right: 12px;
     line-height: 30px;
   }
   &__button {
@@ -31,11 +37,10 @@
     border-radius: 40px;
     border: 2.5px solid $color-orange;
     font-size: 1.5rem;
-    // font-weight:;
     font-family: $font-text;
     text-align: center;
     margin-top: 51px;
-    // padding: 10px;
+    margin-left: 12px; 
     width: 170px;
     height: 45px;
   }

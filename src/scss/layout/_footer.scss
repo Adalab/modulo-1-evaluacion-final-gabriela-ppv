@@ -30,7 +30,7 @@
   }
   &__heart{
     color: $color-white;
-    span{
+   &--red{
       color:$color-orange;
     }
   }

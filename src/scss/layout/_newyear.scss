@@ -1,29 +1,30 @@
 .boxnewyear {
   background-color: $color-whitetwo;
   height: 640px;
-  margin: 40px 0  0;
+  margin: 40px 0 0;
   padding: 29px 15px 39px;
   display: grid;
   grid-template-columns: 200px;
-  // gap: 10px;
-  grid-template-rows:auto auto auto auto auto;
-  justify-content:center;
-  text-align:center;
+  grid-template-rows: auto auto auto auto auto;
+  justify-content: center;
+  text-align: center;
 
   &__title {
     font-family: $font-title;
     color: $color-black;
     font-size: 20px;
     line-height: 30px;
+    font-weight: bolder;
     margin-bottom: 10px;
   }
   &__article {
     margin: 10px;
-     h4{
+    h4 {
       font-family: $font-title;
       color: $color-black;
       size: 18px;
       line-height: 15px;
+      font-weight: bolder;
       padding: 10px;
       text-align: center;
     }
