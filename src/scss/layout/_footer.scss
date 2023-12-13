@@ -7,11 +7,22 @@
   align-items: center;
   gap: 20px;
 
+  @media (min-width: 768px) {
+    height: 365px;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
   &__arrow {
     background-color: $color-white;
     padding: 12px 15px;
     border-radius: 50%;
     transform: translateY(-24px);
+
+    @media (min-width: 768px) {
+      transform: translate(80px, -180px);
+    }
   }
 
   &__nav--list {
@@ -31,6 +42,11 @@
     color: $color-white;
     &--red {
       color: $color-orange;
+    }
+  }
+  &__heart {
+    @media (min-width: 768px) {
+      order: -1;
     }
   }
 }

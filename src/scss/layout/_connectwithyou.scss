@@ -6,8 +6,10 @@
   display: flex;
   flex-direction: column;
   justify-items: center;
-  // margin-left: 12px;
-  // margin-right: 12px;
+  @media (min-width: 1200px) {
+    margin-left:275px;
+    margin-right: 136px;
+    }
 
   &__slogan {
     color: $color-orange;

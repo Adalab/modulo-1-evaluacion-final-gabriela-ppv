@@ -8,7 +8,19 @@
   grid-template-rows: auto auto auto auto auto;
   justify-content: center;
   text-align: center;
-
+  
+  // @media (min-width: 768px) {
+  //   grid-template-rows: 200px 200px 200px;
+  //   grid-template-columns: auto auto auto;
+    
+  //   align-content: baseline;
+  //   text-align: center;
+    
+  //   }
+  
+    // @media (min-width: 1200px) {
+      
+    //   }
   &__title {
     font-family: $font-title;
     color: $color-black;
@@ -16,6 +28,8 @@
     line-height: 30px;
     font-weight: bolder;
     margin-bottom: 10px;
+
+  
   }
   &__article {
     margin: 10px;
@@ -27,6 +41,7 @@
       font-weight: bolder;
       padding: 10px;
       text-align: center;
+      
     }
 
     p {
@@ -34,6 +49,7 @@
       color: $color-black;
       font-size: 18px;
       line-height: 30px;
+     
     }
   }
 
