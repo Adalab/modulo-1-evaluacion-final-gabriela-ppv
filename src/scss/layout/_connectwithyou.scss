@@ -2,7 +2,9 @@
     padding:37px 12px 2px 13px ;
     height: 500px;
     background-color: $color-white;
-    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-items:center ;
     
     &__slogan{
         color: $color-orange;
@@ -24,6 +26,7 @@
         line-height: 30px ;
     }
     &__button{
+        margin: 0 auto;
         color: $color-orange;
         background-color: $color-white;
         border-radius: 40px;

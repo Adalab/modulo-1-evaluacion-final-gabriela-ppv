@@ -1,7 +1,9 @@
 .header {
   height: 100vh;
-  background-image: url("//src/images/cover.jpeg");
-  background-color:burlywood;
+  margin: 0;
+  background-image: url(/images/cover.jpeg);
+  background-position: center;
+  background-size: cover;
   font-family:$font-title;
   color:$color-white;
   display: flex;
@@ -22,7 +24,7 @@
   &__hamburguer{
     // background-color: $color-orange;
     position: fixed;
-    top: 0;
-    left:0;
+
+  
   }
 }
