@@ -2,21 +2,30 @@
   background-color: $color-grey;
   color: $color-white;
   font-family: $font-text;
-//   height: 500px;
+    height: 465px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+
+  &__arrow {
+    background-color: $color-white;
+    // margin-top: 12px;
+    padding: 12px 15px;
+    border-radius: 50%;
+    transform: translateY(-24px);
+  }
+
   &__nav--list {
     list-style: none;
     text-transform: uppercase;
+    line-height: 1.88;
+  }
 
-
-    a {
-      text-decoration: none;
-      color: $color-white;
-      font-family: $font-text;
-    }
+  a {
+    text-decoration: none;
+    color: $color-white;
+    font-family: $font-text;
   }
 }
