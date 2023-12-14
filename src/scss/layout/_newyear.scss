@@ -9,7 +9,6 @@
   justify-content: center;
   text-align: center;
   @media (min-width: 768px) {
-  
   }
 
   &__title {
@@ -20,13 +19,12 @@
     font-weight: bolder;
     margin-bottom: 10px;
     @media (min-width: 768px) {
-      font-size:24px ;
+      font-size: 24px;
     }
-
   }
   &__article {
     margin: 10px;
-  
+
     h4 {
       font-family: $font-title;
       color: $color-black;
@@ -36,7 +34,7 @@
       padding: 10px;
       text-align: center;
       @media (min-width: 768px) {
-        font-size:22px;
+        font-size: 22px;
         line-height: 30px;
       }
     }
@@ -47,7 +45,7 @@
       font-size: 18px;
       line-height: 30px;
       @media (min-width: 768px) {
-        font-size:20px ;
+        font-size: 20px;
       }
     }
   }
